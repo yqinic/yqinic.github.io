@@ -17,3 +17,4 @@ kramdown:
   enable_coderay:   false
 mathjax:            true
 future:             true
+timezone:           UTC-11
