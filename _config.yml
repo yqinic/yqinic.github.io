@@ -3,10 +3,11 @@
 name:               Synthsense Project
 title:              synthsense
 url:                #localhost/synthsense
+baseurl:            "/synthsense/"
 
 # Jekyll
 
-# permalink:          /:title/
+permalink:          pretty
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
