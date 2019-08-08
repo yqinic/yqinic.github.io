@@ -2,11 +2,11 @@
 
 name:               Synthsense Project
 title:              synthsense
-url:                https://yqinic.github.io/synthsense
+url:                localhost
 
 # Jekyll
 
-permalink:          /:title/
+# permalink:          /:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:

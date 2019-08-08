@@ -1,8 +1,6 @@
 ---
-
-title: Synthsense Project
 layout: synthsense
-
+title: Synthsense Project
 ---
 
 # {{ page.title }}
