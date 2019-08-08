@@ -1,7 +1,7 @@
 ---
 
 title: Synthsense Project
-layout: main
+layout: synthsense
 
 ---
 

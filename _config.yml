@@ -1,1 +1,19 @@
-name: Synthsense Project
+# Site
+
+name:               Synthsense Project
+title:              synthsense
+url:                https://yqinic.github.io/synthsense
+
+# Jekyll
+
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+future:             true
