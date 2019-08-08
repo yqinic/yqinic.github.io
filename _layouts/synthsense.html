@@ -17,7 +17,7 @@
                 <!-- Inner -->
                     <div class="inner">
                         <header>
-                            <h1>SynthSense Project</h1>
+                            <h1>{{ page.title }}</h1>
                             <hr />
                             <p>by the Department of Electrical & Electronic Engineering, Imperial College London</p>
                         </header>
@@ -248,15 +248,7 @@
 
 		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			{% include script.html %}
 
 	</body>
 </html>

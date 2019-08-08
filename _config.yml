@@ -2,8 +2,8 @@
 
 name:               Synthsense Project
 title:              synthsense
-url:                #localhost/synthsense
-baseurl:            "/synthsense/"
+source:             /
+url:                https://yqinic.github.io
 
 # Jekyll
 
@@ -19,3 +19,4 @@ kramdown:
 mathjax:            true
 future:             true
 timezone:           UTC-11
+

@@ -8,19 +8,22 @@
 	<head>
 		{% include head.html %}
 	</head>
-	<body class="left-sidebar is-preload">
+	<body class="right-sidebar is-preload">
 		<div id="page-wrapper">
+
 			<!-- Header -->
             <div id="header">
+				
+				{% include nav.html %}
                 <!-- Inner -->
                     <div class="inner">
                         <header>
-                            <h1>Documentation</h1>
+                            <h1>{{ page.title }}</h1>
                         </header>
                     </div>
-					{% include nav.html %}
             </div>
+		</div>
 
-			
+		<!-- {% include script.html %} -->
 	</body>
 </html>
