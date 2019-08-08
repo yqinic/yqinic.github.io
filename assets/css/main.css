@@ -159,6 +159,7 @@ input, select, textarea {
 
 		a:hover {
 			color: #ef8376;
+			/* color: #003E74 */
 			border-bottom-color: transparent;
 		}
 
@@ -1936,6 +1937,7 @@ input, select, textarea {
 
 				ul.icons li a:hover {
 					color: #ef8376;
+					/* color: #003E74 */
 				}
 
 /* Form */
@@ -2056,6 +2058,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background: #df7366;
+		/* background: #003E74; */
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2078,6 +2081,7 @@ input, select, textarea {
 		.button:hover {
 			color: #fff;
 			background: #ef8376;
+			/* background: #003E74; */
 		}
 
 		input[type="button"].alt,
@@ -2377,6 +2381,7 @@ input, select, textarea {
 
 			.dropotron li:hover {
 				color: #ef8376;
+				/* color: #003E74; */
 			}
 
 			.dropotron li a, .dropotron li span {

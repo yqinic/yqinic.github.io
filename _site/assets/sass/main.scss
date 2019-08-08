@@ -177,6 +177,7 @@
 
 		&:hover {
 			color: #ef8376;
+			// color: #003E74
 			border-bottom-color: transparent;
 		}
 	}
@@ -496,6 +497,7 @@
 
 				&:hover {
 					color: #ef8376;
+					// color: #003E74
 				}
 			}
 		}
@@ -615,8 +617,8 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		// background: #df7366;
-		background:	#33A8FF;
+		background: #df7366;
+		// background:	#003E74;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -631,6 +633,7 @@
 		&:hover {
 			color: #fff;
 			background: #ef8376;
+			// background: #003E74;
 		}
 
 		&.alt {
@@ -914,6 +917,7 @@
 
 			&:hover {
 				color: #ef8376;
+				// color: #003E74;
 			}
 
 			a, span {
