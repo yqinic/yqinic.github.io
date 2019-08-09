@@ -24,6 +24,104 @@
             </div>
 		</div>
 
-		<!-- {% include script.html %} -->
+
+		<!-- djiosdk -->
+		<div class="wrapper style1">
+			<article id="algorithm" class="container special">
+				<!-- <a href="#" class="image featured"><img src="/images/pic06.jpg" alt="" /></a> -->
+				<header>
+					<h2>UAV Algorithm</h2>
+					<p>
+						This algorithm defines how the UAV utilises different sensor inputs to navigate to 
+						the static sensor node for the inductive power transfer. 
+					</p>
+				</header>
+				<p>
+
+				</p>
+				<footer>
+					<div class="container">
+						<div class="row">
+							{% include iconhyperlink.html col = "6" url="#" icon="solid fa-folder" text="Documentation" %}
+
+							{% include iconhyperlink.html col = "6" url="https://github.com/yqinic/djiosdk-synthsense" icon="brands fa-github" text="Github" %}	
+
+							<!-- {% include iconhyperlink.html url="#" icon="solid fa-file-pdf" text="Paper" %}	 -->
+						</div>
+					</div>
+				</footer>
+			
+			</article>
+
+			<hr />
+
+			<article id="embeddedos" class="container special">
+				
+				<!-- <a href="#" class="image featured"><img src="/images/pic06.jpg" alt="" /></a> -->
+				<header>
+					<h2>UWB Ranging</h2>
+					<p>
+						This code presents how the UWB ranging works in static sensor nodes.
+					</p>
+				</header>
+				<p>
+
+				</p>
+				<footer>
+					<div class="container">
+						<div class="row">
+							<!-- {% include iconhyperlink.html url="#" icon="solid fa-folder" text="Documentation" %} -->
+
+							{% include iconhyperlink.html col = "12" url="https://github.com/yqinic/contiki-synthsense" icon="brands fa-github" text="Github" %}	
+
+							<!-- {% include iconhyperlink.html url="#" icon="solid fa-file-pdf" text="Paper" %}	 -->
+						</div>
+					</div>
+				</footer>
+			
+			</article>
+
+			<hr />
+
+			<article id="UIWP" class="container special">
+				
+					<!-- <a href="#" class="image featured"><img src="/images/pic06.jpg" alt="" /></a> -->
+					<header>
+						<h2>UAV Integrated Communication Protocol</h2>
+						<p>
+							Communication between the mobile sink and static sensor nodes.
+						</p>
+					</header>
+					<p>
+						This is an UAV integrated WSN protocol data collection example described 
+						in paper "Efficient and Reliable Aerial Communication with Wireless Sensors". This example contains the code 
+						for both the mobile sink and sensor nodes, and illustrate how the mobile 
+						sink collects sensing data from sensor nodes. The paper describes the design, 
+						implementation and evaluation of a 
+						first of its kind cross-layer protocol for wireless communication between flying agents 
+						and terrestrial wireless sensors. The protocol is comprised of 3 layers: a new application 
+						layer built upon a modified implementation of ContikiMAC over the IEEE 802.15.4 2.4 GHz 
+						physical layer. Experimental evaluation shows the protocol to have excellent energy 
+						efficiency, low latency and high reliability -approaching 100% for certain parameter 
+						settings and operational conditions. The effects of speed, altitude and direction of 
+						approach are also experimentally evaluated, demonstrating that it is of critical importance 
+						to take these into account when planning mobile aerial data collection campaigns.
+					</p>
+					<footer>
+						<div class="container">
+							<div class="row">
+								{% include iconhyperlink.html col = "4" url="#" icon="solid fa-folder" text="Documentation" %}
+		
+								{% include iconhyperlink.html col = "4" url="https://github.com/yqinic/UIWP" icon="brands fa-github" text="Github" %}	
+		
+								{% include iconhyperlink.html col = "4" url="#" icon="solid fa-file-pdf" text="Paper" %}	
+							</div>
+						</div>
+					</footer>
+				
+			</article>
+		</div>
+
+		{% include script.html %}
 	</body>
 </html>
